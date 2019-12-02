@@ -23,7 +23,7 @@ var session = service.getEconomicWebServiceSoap12();
 ((BindingProvider) session).getRequestContext().put(BindingProvider.SESSION_MAINTAIN_PROPERTY, true);
 
 // You need to create the tokens in e-conomic administration console 
-session.connectWithToken("tokel1", "token2");
+session.connectWithToken("token1", "token2");
 
 // Do your interaction on the session object
 
