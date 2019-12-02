@@ -1,0 +1,6 @@
+# Idea project files
+*.iml
+.idea
+
+# MAC exclude
+.DS_Store
