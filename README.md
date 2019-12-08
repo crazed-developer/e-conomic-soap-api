@@ -14,6 +14,8 @@ Then add following dependency to your project:
 </dependency>
 ```
 
+**Please note, these maven coordinates are not in Maven central. You have to install it your local machine**
+
 With this Java code you can interact with the api:
 ```java
 var service = new EconomicWebService();
