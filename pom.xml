@@ -4,8 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>soj.nobelium</groupId>
-    <artifactId>e-conomic</artifactId>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/crazed-developer/e-conomic-soap-api</url>
+        </repository>
+    </distributionManagement>
+
+    <groupId>dk.nobelium.economic</groupId>
+    <artifactId>e-conomic-client</artifactId>
     <version>1.0</version>
 
     <properties>
